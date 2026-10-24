@@ -1,63 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of an electrical project engineer working across power systems, site delivery, and technical procurement." />
-  <meta name="theme-color" content="#f7f8fa" />
-  <title>Kekeli Lamadeku | Electrical Project Engineer</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a href="#home" class="brand" aria-label="Kekeli Lamadeku home"><span class="brand-symbol">KL<span class="accent">.</span></span><span class="brand-label">KEKELI LAMADEKU</span></a>
-      <button class="menu-toggle icon-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button>
-      <div class="nav-links" id="nav-links">
-        <a href="#about">About</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
-        <button id="theme-toggle" class="icon-button theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle theme">☾</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of an electrical project engineer specializing in power systems, engineering delivery, and industrial procurement."
+    />
+    <meta name="theme-color" content="#f7f8fa" />
+    <title>Kekeli Lamadeku | Electrical Project Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#home" class="brand" aria-label="Kekeli Lamadeku home">
+          <span class="brand-symbol">KL<span class="accent">.</span></span>
+          <span class="brand-label">KEKELI LAMADEKU</span>
+        </a>
+
+        <button
+          class="menu-toggle icon-button"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+          <button id="theme-toggle" class="icon-button theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle theme">
+            ☾
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> ENGINEERING · PROJECT DELIVERY · PROCUREMENT</p>
+          <h1>
+            Engineering reliable systems.<br />
+            <span class="muted-heading">Delivering real-world impact.</span>
+          </h1>
+          <p class="hero-description">
+            I'm <strong>Kekeli Lamadeku</strong>, an electrical project engineer focused on turning technical requirements into safe,
+            practical, and well-executed projects.
+          </p>
+          <div class="button-row">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-bottom">
+            <span>BASED IN GHANA</span>
+            <span>SCROLL TO EXPLORE ↓</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="diagram-grid"></div>
+          <div class="diagram-ring ring-one"></div>
+          <div class="diagram-ring ring-two"></div>
+          <div class="diagram-node node-a"></div>
+          <div class="diagram-node node-b"></div>
+          <div class="diagram-node node-c"></div>
+          <span class="diagram-caption">DESIGN / EXECUTE / DELIVER</span>
+          <span class="diagram-index">01 — 04</span>
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>Built for the details.<br />Focused on the bigger picture.</h2>
+          </div>
+          <div class="body-copy">
+            <p>
+              I work at the intersection of electrical engineering, project execution, and supply chain coordination—connecting
+              design intent with the realities of site installation, commissioning, and operational readiness.
+            </p>
+            <p>
+              My work spans power systems, instrumentation interfaces, contract coordination, and practical problem solving across
+              field and office environments.
+            </p>
+            <div class="expertise" aria-label="Core areas of expertise">
+              <span>Power Systems</span>
+              <span>Project Delivery</span>
+              <span>Procurement</span>
+              <span>Site Coordination</span>
+              <span>Commissioning</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects &amp; experience</h2>
+          </div>
+          <p>Examples of the type of work I deliver.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <button class="project-image photo-placeholder" type="button" data-gallery="0" aria-label="Open project 1 gallery">
+              <span class="photo-grid"></span>
+              <span class="image-tag">PROJECT 01</span>
+            </button>
+            <div class="project-copy">
+              <h3>Fire &amp; Gas / Earthing System Upgrade</h3>
+              <p>Coordinated technical upgrades, installation sequencing, and inspection readiness for live facility systems.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <button class="project-image photo-placeholder variant-two" type="button" data-gallery="1" aria-label="Open project 2 gallery">
+              <span class="photo-grid"></span>
+              <span class="image-tag">PROJECT 02</span>
+            </button>
+            <div class="project-copy">
+              <h3>Substation Upgrade Engineering</h3>
+              <p>Supported design verification, execution planning, and interface coordination for electrical infrastructure upgrades.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <button class="project-image photo-placeholder variant-three" type="button" data-gallery="2" aria-label="Open project 3 gallery">
+              <span class="photo-grid"></span>
+              <span class="image-tag">PROJECT 03</span>
+            </button>
+            <div class="project-copy">
+              <h3>Industrial Equipment Procurement</h3>
+              <p>Managed technical evaluation, package alignment, and delivery coordination for key equipment and materials.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section section-alt">
+        <div class="container resume-layout">
+          <div class="resume-intro">
+            <p class="eyebrow">RESUME</p>
+            <h2>Experience, skills<br />&amp; qualifications.</h2>
+            <a class="button button-primary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Download CV</a>
+          </div>
+
+          <div class="resume-content">
+            <div class="resume-block">
+              <div class="resume-meta">
+                <span class="resume-year">2022 — Present</span>
+                <span class="resume-role">Electrical Project Engineer</span>
+              </div>
+              <p>
+                Led project execution activities across electrical infrastructure, installation coordination, inspection planning,
+                and technical documentation review for operational systems.
+              </p>
+            </div>
+
+            <div class="resume-block">
+              <div class="resume-meta">
+                <span class="resume-year">2019 — 2022</span>
+                <span class="resume-role">Project &amp; Procurement Support</span>
+              </div>
+              <p>
+                Supported equipment evaluation, vendor coordination, scope tracking, and delivery schedules while maintaining
+                project quality and reporting requirements.
+              </p>
+            </div>
+
+            <div class="resume-block">
+              <div class="resume-meta">
+                <span class="resume-year">Core Skills</span>
+                <span class="resume-role">Engineering Toolkit</span>
+              </div>
+              <div class="tags" aria-label="Skills list">
+                <span>AutoCAD</span>
+                <span>Electrical Installations</span>
+                <span>Site QA/QC</span>
+                <span>Procurement</span>
+                <span>Project Reporting</span>
+                <span>Safety &amp; Compliance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact-layout">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Have a project<br />in mind?</h2>
+          <p class="contact-copy">
+            I am open to meaningful collaborations involving engineering coordination, project delivery support, and technical
+            planning.
+          </p>
+          <div class="contact-links">
+            <a id="email-link" href="mailto:lamadeku.kekeli45@gmail.com">lamadeku.kekeli45@gmail.com</a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button type="submit" class="button button-primary">Send message</button>
+          <p id="form-note" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> KEKELI LAMADEKU. ALL RIGHTS RESERVED.</span>
+        <a href="#home">BACK TO TOP ↑</a>
       </div>
-    </nav>
-  </header>
+    </footer>
 
-  <main id="main">
-    <section id="home" class="hero section container">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> ENGINEERING · PROJECT DELIVERY · PROCUREMENT</p>
-        <h1>Engineering reliable systems.<br /><span class="muted-heading">Delivering real-world impact.</span></h1>
-        <p class="hero-description">I'm <strong>Kekeli Lamadeku</strong>, an electrical project engineer focused on turning technical requirements into safe, practical, and well-executed projects.</p>
-        <div class="button-row"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#contact">Get in touch</a></div>
-        <div class="hero-bottom"><span>BASED IN GHANA</span><span>SCROLL TO EXPLORE ↓</span></div>
+    <dialog id="gallery-dialog" class="gallery-dialog" aria-label="Project gallery">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">PROJECT GALLERY</p>
+          <h3 id="gallery-title">Project</h3>
+        </div>
+        <button id="close-gallery" class="icon-button" type="button" aria-label="Close gallery">✕</button>
       </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="diagram-grid"></div><div class="diagram-ring ring-one"></div><div class="diagram-ring ring-two"></div>
-        <div class="diagram-node node-a"></div><div class="diagram-node node-b"></div><div class="diagram-node node-c"></div>
-        <span class="diagram-caption">DESIGN / EXECUTE / DELIVER</span><span class="diagram-index">01 — 04</span>
+
+      <div class="gallery-viewport">
+        <button class="gallery-nav prev" id="gallery-prev" type="button" aria-label="Previous image">←</button>
+        <figure class="gallery-stage">
+          <img id="gallery-image" alt="Project gallery item" hidden />
+          <div id="gallery-placeholder" class="gallery-placeholder" aria-live="polite">Loading image…</div>
+        </figure>
+        <button class="gallery-nav next" id="gallery-next" type="button" aria-label="Next image">→</button>
       </div>
-    </section>
 
-    <section id="about" class="section section-alt"><div class="container two-column">
-      <div><p class="eyebrow">ABOUT ME</p><h2>Built for the details.<br />Focused on the bigger picture.</h2></div>
-      <div class="body-copy"><p>I work at the intersection of electrical engineering, project execution, and supply chain coordination—connecting design intent with the realities of site installation, documentation, safety, and delivery.</p><p>My approach combines technical discipline, clear communication, and hands-on problem solving across multi-disciplinary teams.</p><div class="expertise"><span>Electrical installations</span><span>Power systems</span><span>Technical documentation</span><span>Project planning</span><span>Equipment procurement</span><span>Site coordination</span></div></div>
-    </div></section>
-
-    <section id="projects" class="section container">
-      <div class="section-header"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects & experience</h2></div><p>Examples of the type of work I deliver.</p></div>
-      <div class="project-grid">
-        <article class="project-card"><button class="project-image photo-placeholder" type="button" data-gallery="0" aria-label="Open project 1 gallery"><span class="photo-grid"></span><span class="placeholder-content"><span class="placeholder-kicker">SITE ENGINEERING</span><span class="placeholder-symbol">⚡</span><span></span></span><span class="image-action">VIEW GALLERY ↗</span></button><div class="project-content"><div class="project-meta">ELECTRICAL SYSTEMS <span>01</span></div><h3>Fire & Gas / Earthing System Upgrade</h3><p>Coordination of installation activities, equipment integration, testing records, and project handover documentation.</p><div class="tags"><span>Site execution</span><span>Earthing</span><span>QA/QC</span></div><button class="text-link" type="button" data-gallery="0">View details & photos ↗</button></div></article>
-        <article class="project-card"><button class="project-image photo-placeholder variant-two" type="button" data-gallery="1" aria-label="Open project 2 gallery"><span class="photo-grid"></span><span class="placeholder-content"><span class="placeholder-kicker">POWER INFRASTRUCTURE</span><span class="placeholder-symbol">⌁</span><span></span></span><span class="image-action">VIEW GALLERY ↗</span></button><div class="project-content"><div class="project-meta">POWER SYSTEMS <span>02</span></div><h3>Substation Upgrade Engineering</h3><p>Technical review of equipment schedules, single-line diagrams, installation interfaces, and site survey findings.</p><div class="tags"><span>Substations</span><span>SLDs</span><span>Technical review</span></div><button class="text-link" type="button" data-gallery="1">View details & photos ↗</button></div></article>
-        <article class="project-card"><button class="project-image photo-placeholder variant-three" type="button" data-gallery="2" aria-label="Open project 3 gallery"><span class="photo-grid"></span><span class="placeholder-content"><span class="placeholder-kicker">PROJECT DELIVERY</span><span class="placeholder-symbol">▤</span><span></span></span><span class="image-action">VIEW GALLERY ↗</span></button><div class="project-content"><div class="project-meta">TECHNICAL PROCUREMENT <span>03</span></div><h3>Industrial Equipment Procurement</h3><p>Specification reviews, supplier coordination, technical evaluations, and delivery planning for engineering packages.</p><div class="tags"><span>RFQs</span><span>Vendor review</span><span>Logistics</span></div><button class="text-link" type="button" data-gallery="2">View details & photos ↗</button></div></article>
+      <div class="gallery-footer">
+        <p id="gallery-caption">Project description</p>
+        <span id="gallery-counter">1 / 1</span>
       </div>
-    </section>
-
-    <section id="resume" class="section section-alt"><div class="container resume-layout"><div class="resume-intro"><p class="eyebrow">RESUME</p><h2>Experience, skills<br />& qualifications.</h2><p>A concise overview of my professional background.</p><a class="button button-primary" href="assets/resume.pdf" download>Download resume (PDF) ↓</a></div><div class="resume-details"><div class="resume-block"><h3>Experience</h3><div class="resume-entry"><div><strong>Project Engineer - Bremenenergie Services Ltd.</strong><span>Engineering projects, technical coordination & procurement</span></div><small>December 2025 - Present</small></div></div><div class="resume-block"><h3>Education</h3><div class="resume-entry"><div><strong>Kwame Nkrumah University of Science and Technology</strong><span>BSc. Electrical/Electronic Engineering</span></div><small>2018-2022</small></div></div><div class="resume-block"><h3>Core competencies</h3><p>Electrical engineering · Site supervision · Project schedules · Technical proposals · Equipment sourcing · QA/QC documentation</p></div><div class="resume-block"><h3>Certifications</h3><p>Google Professional Project Management Certificate <br> Certified Electrical Wiring Professional Certificate (Industrial) - Energy Commission</p></div></div></div></section>
-
-    <section id="contact" class="section container contact-layout"><div><p class="eyebrow">CONTACT</p><h2>Have a project<br />in mind?</h2><p class="contact-copy">I am open to meaningful collaborations, technical conversations, and opportunities to build something that matters.</p><div class="social-links"><a id="email-link" href="mailto:lamadeku.kekeli45@gmail.com">Email ↗</a><a href="https://linkedin.com/in/kekeli-lamadeku-700439367" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/Keli01" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://wa.me/233547085189">WhatsApp ↗</a></div></div><form id="contact-form" class="contact-form"><label for="contact-name">YOUR NAME</label><input id="contact-name" name="name" autocomplete="name" required placeholder="Enter your name here..." maxlength="100" /><label for="contact-email">EMAIL ADDRESS</label><input id="contact-email" name="email" type="email" autocomplete="email" required placeholder="name@company.com" maxlength="180" /><label for="contact-message">MESSAGE</label><textarea id="contact-message" name="message" rows="5" required placeholder="Tell me about your project..." maxlength="3000"></textarea><button class="button button-primary" type="submit">Prepare email ↗</button><p class="form-note" id="form-note" role="status">Submitting opens your default email app; no message is stored or sent from this website.</p></form></section>
-  </main>
-  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> KEKELI LAMADEKU. ALL RIGHTS RESERVED.</span><a href="#home">BACK TO TOP ↑</a></div></footer>
-
-  <dialog id="gallery-dialog" class="gallery-dialog" aria-label="Project gallery"><div class="dialog-heading"><div><p class="eyebrow">PROJECT GALLERY</p><h3 id="gallery-title">Project</h3></div><button id="close-gallery" class="icon-button close-button" type="button" aria-label="Close gallery">✕</button></div><div class="gallery-image-wrap"><img id="gallery-image" alt="Project image" hidden /><div id="gallery-placeholder" class="gallery-empty">Project photo placeholder</div></div><div class="gallery-footer"><p id="gallery-caption"></p><div class="gallery-controls"><button id="gallery-prev" type="button" aria-label="Previous image">←</button><span id="gallery-counter">1 / 3</span><button id="gallery-next" type="button" aria-label="Next image">→</button></div></div></dialog>
-</body>
+    </dialog>
+  </body>
 </html>
